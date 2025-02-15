@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Love!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://github.com/hayyudha/Ultahmu.git" rel="stylesheet">
+</head>
+<body>
+    <div class="landing-page">
+        <div class="content">
+            <h1>Happy Birthday, Love!</h1>
+            <p>Counting down to your special day...</p>
+            <div id="countdown"></div>
+            <button id="toggle-music">Play Music</button>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <h2>Memories</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/photo1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/photo2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/photo3.jpg" style="width:100%">
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>
+    </div>
+
+    <div class="love-letter">
+        <h2>My Love Letter to You</h2>
+        <p id="letter-content">
+            <!-- This will be filled with the love letter text -->
+        </p>
+    </div>
+
+    <div class="wishes">
+        <h2>Wishes from Friends & Family</h2>
+        <form id="wish-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="wishes-container">
+            <!-- This will be filled with the wishes -->
+        </div>
+    </div>
+
+    <div class="surprise-gift">
+        <h2>Surprise Gift</h2>
+        <button id="reveal-gift">Reveal Your Gift</button>
+        <div id="gift-content" style="display:none;">
+            <p>Here is your special gift! 🎁</p>
+        </div>
+    </div>
+
+    <div class="romantic-quiz">
+        <h2>Romantic Quiz</h2>
+        <div id="quiz-container">
+            <!-- This will be filled with quiz questions and answers -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
